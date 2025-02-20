@@ -12,3 +12,6 @@ y = 7
 print(x+y)
 
 print(y-x)
+
+with open("output.txt", "w") as file:
+    file.write("Hello world!\n")
